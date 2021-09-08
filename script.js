@@ -34,7 +34,7 @@
 }
 
 const startAnimation = (boxId) => {
-	console.clear();
+	// console.clear();
 	boxId++;
 
 	// Setting the time obtained by the input box or by default, it is set to 1s

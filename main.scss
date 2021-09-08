@@ -1,13 +1,28 @@
 body {
 	padding: 2rem;
+	font-family: sans-serif;
 
 	@media only screen and (max-width: 600px) {
 		padding: 2rem 1rem;
 	}
 }
 
+p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
 .box {
 	margin: 1rem auto;
+}
+
+@keyframes fill {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 .progress-bar {
@@ -28,7 +43,11 @@ body {
 	width: 0%;
 	height: 100%;
 	background: blue;
-	transition-property: width;
+
+	span {
+		color: #fff;
+		font-size: 1.2rem;
+	}
 }
 
 button {
